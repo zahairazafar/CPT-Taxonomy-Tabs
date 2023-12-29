@@ -110,6 +110,7 @@ function get_demo_posts($category_id) {
 			$output .= '<div class="demo-tempcards">';
 			$output .= '<a class="demo-thumbnails" href="' . get_permalink() . '">';
 			$output .= '<div class="demo-thumbnailsinner">';
+			/*	Here i am getting the images that i've enabled in the post by using ACF Image Field by Array & each is named as "hover_img_1 , 2 & 3 . So here i am using for loop */
 			for ($i = 1; $i <= 3; $i++) {
 				$image = get_field('hover_image_' . $i);
 				if (!empty($image)) {
