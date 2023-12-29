@@ -1,3 +1,4 @@
+<?php
 /* --------------------- Demo Custom post type ------------------------------------*/
 
 function templates_demo() {
